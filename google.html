@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../Desktop/icofont/icofont.min.css">
+    <style>
+        body{
+            background-image:url(./wallpaper.jpg) ;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .safari{
+            display: flex;
+            justify-content: end;
+            color: white;
+        }
+        .pod{
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+        }
+        .act{
+            height: 200px;
+            width: 500px;
+            text-align: center;
+        }
+       .fg{
+            text-align: center; 
+            margin-top: 200px;
+        }
+        .pad{
+            background-color: white;
+            border-radius: 15px;
+            width: 500px;
+            height: 30px;
+            margin: auto;
+            padding: 5px;
+        }
+        .bag{
+            height: 30px;
+            width: 400px;
+            border: none;
+        }
+        .food{
+            
+            height:220px ;
+            width: 520px;
+            
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .food div{
+            height: 100px;
+            min-width: 100px;
+            margin: 2px;
+            background-color: rgba(0, 0, 255, 0);
+        }
+        .food div:hover{
+            height: 100px;
+            min-width: 100px;
+            margin: 2px;
+            background-color: rgba(185, 185, 198, 0.526);
+        }
+        .food div{
+            display: flex;
+            
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .food div i{ 
+            background-color: white;
+            border-radius: 30px;
+           
+        }
+        .dropdown{
+            display: none;
+            position: absolute;
+            background-color: grey;
+            left: 0;
+            width: 100%; 
+        }
+        .inp:focus-within .dropdown{
+            display: block;
+        }
+        .probutton{
+            border: none;
+            background-color: rgba(255,255, 255, 0);
+        }
+        .probutton:focus .onclickpro{
+            display: block;
+            position: absolute;
+            right: 2%;
+            top: 10%;
+        }
+        .onclickpro{
+            display: none;
+        }
+        .pro2{
+            height: 100px;
+            width: 100px;
+            border-radius: 100px;
+        }
+        .onclickpro{
+            height: 480px;
+            width: 400px;
+            color: white;
+            background-color: rgb(62, 62,62);
+        }
+        .onclickpro a{
+            color: white;
+        }
+        .firstline{
+            height: 230px;
+            padding: 20px;
+        }
+        .secondline{
+            margin :auto;
+            width: 250px;
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 10px;
+        }
+        .howtoreg{
+            width: 250px;
+            margin: auto;
+            text-align: left;
+        }
+        .textforsl{
+            text-align: left;
+            margin-top: 8px;
+        }
+        .pro3{
+            height: 50px;
+            width: 50px;
+            border-radius: 50px;
+        }
+        .sdf{
+            border: 1px solid black;
+            border-radius: 20px;
+            padding: 10px;
+            width: 250px;
+            margin: auto;
+        }
+        .sig{
+            border: 1px solid black;
+            border-radius: 20px;
+            padding: 10px;
+            width: 250px;
+            margin: auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <main class="safari">
+            <p>Gmail</p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p>images</p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="icofont-list"></i>
+            <div>
+                <button>
+                    <div class="probutton">
+                        <img  class="pod" src="./img.jpg" alt="">
+                    </div>
+                    <div class="onclickpro">
+                        <div class="firstline">
+                            <img class="pro2" src="./img.jpg" alt="">
+                            <p>Adekoya Kudirat Oyindamola</p>
+                            <p>kudirat420@gmail.com</p>
+                            <div class="sdf">
+                                <a href="">
+                                    Manage Your Google Account
+                                </a>
+                            </div>
+                        </div>
+                        <hr>
+
+                        <div class="secondline">
+                            <div>
+                                <img class="pro3" src="./img.jpg" alt="">
+                            </div>
+                            <div class="textfors1">
+                                adekoya Kudirat
+                                <br>kudirat420@gmail.com
+                            </div>
+                        </div>
+                        <div class="howtreg">
+                            <span class="material-symbols-outlined">
+                                how_to_reg
+                            </span>
+                            &nbsp;&nbsp;&nbsp; Add another account
+                        </div>
+                        <hr>
+                        <div>
+                            <div class="sig">
+                                <a href="">sign out of all other accounts</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div>
+                            <a href="">privacy policy</a>&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp; <a href="">terms of 
+                                service</a>
+                        </div>
+
+
+                    </div>
+                </button>
+                
+            </div>
+            
+        </main>
+        <div class="fg">
+            <img class="act" src="./google logo.png" alt="">
+            <div class="pad">
+                <i class="icofont-search"></i> <input  class="bag"  type="search" name="" id="" placeholder="Search Google or Type URL"> <i class="icofont-record"></i>
+                <div class="dropdown">
+                    <p>
+                        <i class="icofont-history"></i>
+                        <span>Recent Search</span>
+                    </p>
+                    <p>
+                        <i class="icofont-history"></i>
+                        <span>Recent Search</span>
+                    </p>
+                    <p>
+                        <i class="icofont-history"></i>
+                        <span>Recent Search</span>
+                    </p>
+                    <p>
+                        <i class="icofont-history"></i>
+                        <span>Recent Search</span>
+                    </p>
+                    <p>
+                        <i class="icofont-history"></i>
+                        <span>Recent Search</span>
+                    </p>
+                    <p>
+                        <i class="icofont-history"></i>
+                        <span>Recent Search</span>
+                    </p>
+                    <p>
+                        <i class="icofont-history"></i>
+                        <span>Recent Search</span>
+                    </p>
+                    <p>
+                        <i class="icofont-history"></i>
+                        <span>Recent Search</span>
+                    </p>
+                </div>
+            </div>
+            <div class="food">
+                <div>
+                    <i class="icofont-facebook icofont-3x"></i>
+                </div>
+                <div>
+                    <i class="icofont-snapchat icofont-3x"></i>
+                </div>
+                <div>
+                    <i class="icofont-mail icofont-3x"></i>
+                </div>
+                <div>
+                    <i class="icofont-telegram icofont-3x"></i>
+                </div>
+                <div>
+                    <i class="icofont-facebook icofont-3x"></i>
+                </div>
+                <div>
+                    <i class="icofont-apple icofont-3x"></i>
+                </div>
+                <div>
+                    <i class="icofont-youtube icofont-3x"></i>
+                </div>
+                <div>
+                    <i class="icofont-twitter icofont-3x"></i>
+                </div>
+                <div>
+                    <i class="icofont-whatsapp icofont-3x"></i>
+                </div>
+                <div>
+                    <i class="icofont-instagram icofont-3x"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+  
+</body>
+</html>

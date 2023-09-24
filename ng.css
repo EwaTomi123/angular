@@ -1,0 +1,170 @@
+.io{
+    background-image:url(./netflix.jpeg) ;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: rgba(0, 0, 0, 0.373)
+}
+.long{
+    margin-top: 5px;
+    margin-bottom: 2px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.tyi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yest{
+    background-color: black;
+    color: white;
+    margin-bottom: 300px;
+}
+.with{
+    background-color: black;
+    color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 1px;
+    
+}
+.store{
+    background-color: black;
+    color: white;
+   
+    text-align: end;
+    padding-right: 200px;
+}
+.messenger{
+    background-color: black;
+    color: white;
+    
+}
+    .button{
+    background-color: red;
+    height: 45px;
+    width: 100px;
+    margin-bottom: 300px;
+}
+.linka{
+    text-decoration: none;
+    color: white;
+}
+.address{
+    width: 300px;
+    height: 45px;
+    margin-bottom: 300px;  
+}
+h1{
+    color: white;
+    font-size: 50px;
+    margin: 0px;
+}
+.p1,.p2{
+    margin: 0px;
+    color: white;
+    font-size: 20px;
+}
+.pic{
+width: 100px;
+height:50px;
+}
+.yes{
+margin-left: auto;
+margin-right: auto;
+width: 600px;
+height: 300px;
+text-align: center;
+}
+.in{
+background-color: red;
+color: white;
+
+}
+body{
+    background-color: rgba(0, 0, 0, 0.465);
+}
+.div6{
+    background-color: black;
+    margin-top: 5px;
+}
+.div6 h1{
+    text-align: center;
+    margin: 0px;
+}
+.div6 button{
+    width: 700px;
+    padding: 20px;
+    border: none;
+    background-color: grey;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+    margin-top: 10px; 
+    color: white;
+    font-size:large;
+}
+.div6 button span{
+    color: white;
+    font-size: large;
+}
+.div6 button{
+    display: flex;
+    justify-content: space-between;
+}
+.div6 .div666{
+    margin-top: 40px;
+    text-align: center;
+}
+.div6 .div666 div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 50px;
+}
+.div6 .div666 input{
+    height: 35px;
+    width: 450px;
+    padding: 10px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+.div6 .div666 div div button{
+    width: 200px;
+    height: 57px;
+    background-color: red;
+    border: none;
+    margin-top: 1px;
+    font-size: 20px;
+}
+.div6 .div666 div div button a{
+    font-size: large;
+    text-decoration: none;
+    color: white;
+}
+footer{
+    background-color: black;
+    margin-top: 5px;
+}
+footer a{
+    text-decoration: none;
+    height: 30px;
+    width: 200px;
+    color: rgb(101, 101, 101);
+}
+footer div, footer div div {
+    width: 820px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.aa1{
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+.aa2{
+    margin-top: 5opx;
+}

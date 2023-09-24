@@ -1,0 +1,295 @@
+nav {
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    justify-content: space-around;
+    display: flex;
+    width: 50rem;
+
+}
+
+.personal {
+    visibility: hidden;
+    background-color: rgb(221, 213, 213);
+    width: 100%;
+    position: absolute;
+    left: 0;
+
+}
+.dropdown:focus-within .personal{
+    visibility: visible;
+}
+.first {
+    background-image: url(../hero_img.png);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.signup {
+    border: none;
+    border-radius: 15px;
+    background-color: orangered;
+    color: white;
+    width: 15rem;
+    height: 30px;
+}
+
+.input {
+    margin: left;
+}
+
+div input {
+    border: none;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    color: black;
+    width: 25rem;
+    height: 30px;
+    text-align: center;
+    margin: left;
+
+}
+
+.empower {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boxes {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: left;
+}
+
+.box {
+    width: 17%;
+    height: 7rem;
+    border: 2px solid wheat;
+    margin: 1rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px rgba(245, 245, 245, 0.414);
+
+}
+
+.img {
+    width: 55px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 10px whitesmoke;
+}
+
+.boxes :hover {
+    transform: scale(1.09);
+}
+
+.logo {
+    width: 10rem;
+    height: 40px;
+    background-color: whitesmoke;
+}
+
+.yes {
+    display: flex;
+}
+
+.yes2 {
+    border: 1px solid blue;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    height: 500px;
+    width: 12rem;
+}
+
+.inline,
+.external {
+    display: flex;
+    justify-content: space-around;
+}
+
+.write {
+    padding-inline-end: 5px;
+    padding-top: 2rem;
+}
+
+.palm {
+    border: none;
+    background-color: orangered;
+    color: white;
+    width: 17rem;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.opay {
+    border: none;
+    background-color: whitesmoke;
+    width: 10rem;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.uit {
+    text-decoration: none;
+    color: black;
+
+}
+
+.second {
+    background-image: url(../2nd\ background\ imagemini_features_hero_img.png);
+}
+
+.third {
+    background-image: url(../3rd\ background\ img\ merchants_bg_hero_img.png);
+}
+
+.opposite {
+    padding-inline-start: 5px;
+    padding-top: 15rem;
+}
+
+.fourth {
+    background-image: url(../4th\ background\ img\ minimal_billers_bg.png);
+}
+
+.bills {
+    text-align: center;
+    align-items: center;
+}
+
+.bat {
+    width: 17%;
+    height: 7rem;
+    border: 2px solid wheat;
+    margin: 1rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px rgba(245, 245, 245, 0.414);
+
+}
+
+.bates :hover {
+    transform: scale(1.09);
+}
+
+.sixth {
+    background-image: url(../5th\ background\ image\ minimal_developers_bg.png);
+}
+
+.fifth {
+    background-image: url(../5th\ background\ img\ mini_download_bg_img.svg);
+}
+
+.bigi {
+
+    width: 30rem;
+    height: 50px;
+    border-radius: 25px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid white;
+}
+
+.brat {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.park {
+    text-align: center;
+    height: 20rem;
+}
+
+.kay {
+    color: white;
+    padding-top: 5rem;
+}
+
+.seventh {
+    background-image: url(../minimal_newsletter_bg_img.svg);
+}
+
+.best {
+    display: flex;
+}
+
+.bag {
+    display: flex;
+    justify-content: space-between;
+}
+
+.glue {
+    color: black;
+}
+
+.personal {
+    display: flex;
+    justify-content: space-between;
+}
+.bigimg{
+    width: 600px;
+    height: 600px;
+}
+
+/* .imgpo1,
+.imgpo2,
+.imgpo3{
+    position: absolute;
+} */
+
+@media screen and (max-width:1000px) {
+    
+    .empower,.inline,
+    .external,
+    .park{
+        flex-direction: column;
+        align-items: center;
+    }
+    .boxes{
+        width: 90%;
+    }
+    .box{
+        width: 100px;
+    }
+    .bates{
+        width: 90%;
+    }
+    .bat{
+        width: 100px;
+    }
+    .park .best{
+        width: 80%;
+    }
+    .dropdown{
+        display: none;
+    }
+    .bigimg{
+        width: 80%;
+        height: 400px;
+    }
+    .opposite {
+        margin: 0;
+        padding: 0;
+    }
+    .bag{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgpo2,
+    .imgpo1{
+        display: none;
+    }
+}

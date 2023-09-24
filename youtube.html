@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+         .flex-wrap{
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: space-around; 
+        }
+        .flex-box{
+            width: 29%;
+            height: 10rem;
+            border: 2px solid wheat;
+            margin: 1rem; 
+        }
+        @media screen and (max-width:750px){
+            .flex-box{
+                width: 48%;
+            }
+        }
+        @media screen and(max-width:680px)  {
+            .flex-box{
+                width: 80%;
+                height: 15rem;
+            }
+          
+        }
+        .flex-box:hover{
+            transform: scale(1.09);
+        }
+        .g{
+            background-image: url(./sa.jpeg);
+            background-position:center ;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border: solid 1px whitesmoke;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <i class="icofont-addons"></i>
+    <div class="flex-wrap">
+        <div class="flex-box"></div>
+        <div class="flex-box"></div>
+        <div class="flex-box"></div>
+        <div class="flex-box"></div>
+        <div class="flex-box"></div>
+        <div class="flex-box"></div>
+        <div class="flex-box"></div>
+        <div class="flex-box"></div>
+        <div class="flex-box"></div>
+        <div class="flex-box"></div>
+        <div class="flex-box"></div> 
+        <div class="flex-box"></div>
+        <div class="flex-box"></div>
+        <div class="flex-box"></div>
+        <div class="flex-box"></div>
+        <div class="flex-box"></div>
+        <div class="flex-box"></div>
+        <div class="flex-box g"></div>
+       
+    </div> 
+</body>
+</html>

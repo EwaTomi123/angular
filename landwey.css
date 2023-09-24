@@ -1,0 +1,127 @@
+body{
+background-color: rgb(240, 240, 240);
+}
+nav{
+display: flex;
+
+align-items: center;
+justify-content: space-between;
+width: 70%;
+margin: auto;
+}
+nav img{
+    width: 150px;
+    height: 50px;
+}
+nav a{
+     text-decoration: none;
+     color: black;
+     margin: 0px 10px;
+}
+nav a:hover{
+    color: orange;
+}
+nav button{
+    width: 180px;
+    height: 40px;
+    background-color: orangered;
+    border: none;
+    border-radius: 10px;
+}
+main{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+main button{
+    border: none;
+    width: 150px;
+    height: 50px;
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+}
+
+section{
+    background-color: white;
+    padding: 0 30px;
+    margin:50px auto;
+    width: 73%;
+    display: flex;
+    flex-wrap: wrap;
+}
+section div{
+    width: 450px;
+    height: 600px;
+    /* border: 2px solid black; */
+    margin: 30px;
+    border-radius: 20px;
+    background-color: rgb(245, 245, 245);
+}
+section div img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    
+
+}
+
+.aside1{
+    margin: 40px;
+    border: 2px soilid black;
+    /* background-color: blue; */
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.aside3{
+display: flex;
+}
+.aside3 img{
+    width: 120px;
+    margin: 0 15px;
+    border-radius: 20px;
+}
+.div44{
+width: 50px;
+height: 200px;
+border-radius: 30px;
+position: fixed; 
+right: 5px;
+top: 200px;
+background-color:  rgba(245, 245, 245, 0.96);
+border: none;
+}
+.div44 button{
+    text-decoration: none;
+    background-color: orangered;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    top: 200px;
+    right: 5px;
+    
+}
+.div44 a{
+    text-decoration: none;
+    color: white;
+}
+.div66{
+     position: fixed;
+     right: 5px; 
+     bottom: 100px;
+}
+.div66 button{
+    background-color: orangered;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+}
+.div66 a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,93 @@
+.tip{
+    color: blue;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.divb{
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     height: 650px;
+    width: 600px; 
+    background-color: white; 
+    text-align: center;  
+}
+.name{
+    height: 30px;
+    width: 250px;
+    background-color: rgb(230, 230, 238);
+    border-radius: 5px;
+}
+.number{
+    height: 30px;
+    width: 500px;
+    background-color: rgb(230, 230, 238);
+    border-radius: 5px;
+}
+.password{
+    height: 30px;
+    width: 500px;
+    background-color: rgb(230, 230, 238);
+    border-radius: 5px;
+}
+.date{
+height: 30px;
+width: 166px;
+background-color: rgb(230, 230, 238);
+border-radius: 5px;
+}
+.month{
+height: 30px;
+width: 166px;
+background-color: rgb(230, 230, 238);
+border-radius: 5px;
+}
+.year{
+height: 30px;
+width: 166px;
+background-color: rgb(230, 230, 238);
+border-radius: 5px;
+}
+.divc{
+    text-align: center;
+}
+.female{
+    height: 30px;
+    width: 166px;
+    background-color: rgb(230, 230, 238);
+    border-radius: 5px;
+}
+.male{
+    height: 30px;
+    width: 166px;
+    background-color: rgb(230, 230, 238);
+    border-radius: 5px;
+}
+.custom{
+    height: 30px;
+    width: 166px;
+    background-color: rgb(230, 230, 238);
+    border-radius: 5px; 
+}
+.linka{
+    height: 30px;
+    width: 130px;
+    background-color: green;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    border: none
+}
+.gender{
+    text-align:start ;
+}
+ .birth{
+    text-align: start;
+ }
+body{
+     background-color: whitesmoke;
+}
